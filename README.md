@@ -68,3 +68,91 @@ git branch -M main
 git push -u origin main
 
 "https://github.com/farhansk7/movies_app"
+
+
+new readme file --
+# 🎬 Movie App 2025
+
+A sleek and responsive movie search web app built with **React**, **Vite**, **Tailwind CSS**, and **Appwrite**. Find trending movies or search by name — fast, stylish, and easy to use!
+
+## 🚀 Live Demo
+👉 [View Live Project](https://your-vercel-url.vercel.app)  
+*(Replace with your actual Vercel link)*
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** React 19, Vite
+- **Styling:** Tailwind CSS
+- **Backend/API:** The Movie DB (TMDB) API, Appwrite
+- **Deployment:** Vercel
+- **Utilities:** `react-use` for debouncing
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots (or screen recording GIF) in a `/screenshots` folder and link them like:
+```md
+![Home Page](./screenshots/home.png)
+
+---
+ Features
+🔍 Debounced Search
+
+🔥 Trending Movies Section (via Appwrite)
+
+🎞️ Dynamic Movie Cards
+
+💡 Error Handling & Loader Spinner
+---
+movie_app_2025_june/
+│
+├── public/               # Static files like images
+│   └── hero-img.png
+│
+├── src/
+│   ├── components/       # Reusable components like Search, Spinner, MovieCard
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── package.json
+└── README.md
+
+---
+ Setup Instructions
+
+git clone https://github.com/farhansk7/movies_app.git
+cd movies_app
+npm install
+npm run dev
+
+📮 Contact
+
+Made with ❤️ by Farhan Shaikh
+-
+
+---
+
+## ✅ 2. How to Add a Preview Image for GitHub
+
+1. Add a **screenshot** (e.g., home screen of your app) as `preview.png` or `screenshot.png` in the root or `screenshots/` folder.
+
+2. Update top of `README.md` like this:
+
+```md
+![Preview](./screenshots/preview.png)
+--
+✅ 3. Commit It to GitHub
+
+git add README.md
+git commit -m "Add project README and documentation"
+git push origin main
+
+---
+4. Redeploy to Vercel (Optional if Auto)
+Go to vercel.com/dashboard
+→ Select your project
+→ Click "Redeploy" if needed
