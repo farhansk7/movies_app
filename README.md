@@ -156,3 +156,7 @@ git push origin main
 Go to vercel.com/dashboard
 → Select your project
 → Click "Redeploy" if needed
+
+
+---
+VITE_TMDB_API_KEY=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4OGFlMjI0ZjJlMDRlZTA2NzlhZTc2NTQxOGFmZDI4YyIsIm5iZiI6MTc0OTc0NDE3Ni4wNjQsInN1YiI6IjY4NGFmYTMwYzgzZWJlNzgxOWJiNDM5MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5eB4HTJ-mlB-6nQlCsrLiNPLMWAcuMP1UDu0iIstslc
